@@ -149,8 +149,10 @@ const inputFolga = document.createElement('input');
 const botão = document.createElement('button');
 inputAno.placeholder = 'ano';
 inputMês.placeholder = 'mês';
-inputFolga.placeholder = 'folga';
+inputFolga.placeholder = 'dia da primeira folga';
 botão.textContent = 'gerar';
+botão.style.width = '150px';
+botão.style.backgroundColor = 'rgba(0,150,150)';
 
 //
 botão.addEventListener('click',
